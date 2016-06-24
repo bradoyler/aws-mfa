@@ -1,0 +1,6 @@
+# ignored files
+.idea/
+
+aws_session.json
+.env
+.aws-mfa

@@ -1,0 +1,21 @@
+{
+  "name": "aws-mfa",
+  "version": "0.0.1",
+  "description": "Utility for AWS services with MFA",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "dependencies": {
+    "aws-sdk": "2.4.1",
+    "dotenv": "2.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/bradoyler/aws-mfa/issues"
+  },
+  "bin": {
+    "aws-mfa": "./bin/aws-mfa"
+  },
+  "author": "Brad Oyler",
+  "license": "MIT"
+}

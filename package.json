@@ -4,8 +4,18 @@
   "description": "Utility for AWS services with MFA",
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "test": ""
   },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bradoyler/aws-mfa.git"
+  },
+  "keywords": [
+    "AWS",
+    "MFA",
+    "Multi-Factor",
+    "Authentication"
+  ],
   "dependencies": {
     "aws-sdk": "2.4.1",
     "dotenv": "2.0.0"
@@ -16,6 +26,7 @@
   "bin": {
     "aws-mfa": "./bin/aws-mfa"
   },
-  "author": "Brad Oyler",
+  "homepage": "https://github.com/bradoyler/aws-mfa",
+  "author": "Brad Oyler <bradoyler@gmail.com> (github.com/bradoyler)",
   "license": "MIT"
 }
